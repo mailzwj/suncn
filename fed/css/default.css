@@ -1,0 +1,38 @@
+body{
+    *position: relative;
+    *height:expression(eval(documentElement.scrollHeight));
+    margin: 0;
+    padding: 0;
+    font: 12px/1.5 '\5b8b\4f53';
+    background-color: #000;
+    overflow-x: hidden;
+}
+.sc-bgup,.sc-bgdown{
+    position: absolute;
+    display: none;
+    left: 0;
+    width: 150%;
+    height: 91px;
+}
+.sc-bgup{
+    background: url(../imgs/img_01.png) 0 0 repeat-x;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src = '../imgs/img_01.png', sizingMethod = 'crop');
+}
+.sc-bgdown{
+    background: url(../imgs/img_02.png) 0 0 repeat-x;
+    _background: none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src = '../imgs/img_02.png', sizingMethod = 'crop');
+}
+.sc-fed,.sc-cake{
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    padding: 5px 8px;
+    width: 612px;
+    height: 458px;
+    border: 6px solid #fff;
+    border-radius: 5px;
+    background-color: #cecece;
+    overflow: hidden;
+}

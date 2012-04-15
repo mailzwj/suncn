@@ -1,13 +1,13 @@
 #常用脚本整理
 > 前端开发论坛
 
-[seejs](http://www.`seejs`.com/)
-
+[http://www.seejs.com/](http://www.`seejs`.com/)
+```
 1、waterfall（瀑布流）
-
-
+```
+```
 2、js-dock（JS仿苹果DOCK菜单）
-
+```
 ```
 3、html5&clock（html5+css3实现的时钟）
 ```
